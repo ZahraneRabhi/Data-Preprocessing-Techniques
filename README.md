@@ -22,7 +22,8 @@ from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder
 
 ## Data Normalization Techniques
 A sample Categorical dataset to demonstrate encoding techniques:
-![numeric-dataset](assets/num_df.png)
+<img src="assets/num_df.png" alt="numeric-dataset">
+
 
 ### `MinMaxScaler()`
 This scales numeric values between 0 and 1. It is optimal for uniformly distributed data but sensitive to outliers.
@@ -39,7 +40,7 @@ Transforms features into a uniform or normal distribution, making it effective f
 ## Encoding Categorical Data
 
 A sample Categorical dataset to demonstrate encoding techniques:
-![categorical-dataset](assets/categ_df.png)
+<img src="assets/categ_df.png" alt="categorical-dataset">
 
 
 ### `OneHotEncoder() & get_dummies()`
