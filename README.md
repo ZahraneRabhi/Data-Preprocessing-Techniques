@@ -22,6 +22,7 @@ from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder
 
 ## Data Normalization Techniques
 ***A sample Categorical dataset to demonstrate encoding techniques:***
+
 <img src="assets/num_df.png" alt="numeric-dataset">
 
 
