@@ -44,9 +44,11 @@ A sample Categorical dataset to demonstrate encoding techniques:
 
 
 ### `OneHotEncoder() & get_dummies()`
+
 This transforms categorical variables into binary format. Each category is represented as a separate feature.
 
 ### `OrdinalEncoder() & LabelEncoder()`
+
 Converts categorical variables into numeric ordinal values.
 
 # Note
