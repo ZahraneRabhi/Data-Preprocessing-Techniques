@@ -21,7 +21,7 @@ from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder
 ```
 
 ## Data Normalization Techniques
-A sample Categorical dataset to demonstrate encoding techniques:
+***A sample Categorical dataset to demonstrate encoding techniques:***
 <img src="assets/num_df.png" alt="numeric-dataset">
 
 
@@ -38,17 +38,15 @@ Uses the median and interquartile range, making it less sensitive to outliers.
 Transforms features into a uniform or normal distribution, making it effective for asymmetric or multimodal data.
 
 ## Encoding Categorical Data
+***A sample Categorical dataset to demonstrate encoding techniques:***
 
-A sample Categorical dataset to demonstrate encoding techniques:
 <img src="assets/categ_df.png" alt="categorical-dataset">
 
 
 ### `OneHotEncoder() & get_dummies()`
-
 This transforms categorical variables into binary format. Each category is represented as a separate feature.
 
 ### `OrdinalEncoder() & LabelEncoder()`
-
 Converts categorical variables into numeric ordinal values.
 
 # Note
